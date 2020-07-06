@@ -33,7 +33,7 @@ The performnace is measured in the following setting:
    ```
    Full code is in the [ViewController.swift](./CoreMLPerformance/ViewController.swift)
 * When the real measurement is taken, first **50 iterations** are done as a **warmup**. All the **real** time metrics are measured and averaged for the following **500 iterations**.
-* Each model is tested with all possible computing devices provided in Apple products:
-   * **ANE** which stands for **A**pple **N**eural **E**ngine and is the Apple's custom Neural Processing Unit. It was specifically designed to speed up on-device neural nets computations. This is currently supported only by mobile processors starting from A11 Bionic (but recently Apple announced ANE support in new Silicon processors lineup)
+* Each model is tested with **all** possible **computing** devices provided in Apple products:
+   * **ANE** which stands for **A**pple **N**eural **E**ngine and is the Apple's custom Neural Processing Unit. It was specifically designed to speed up on-device neural nets computations. This is currently supported only by mobile processors **starting from A11 Bionic** (but recently Apple announced ANE support in new Silicon processors lineup)
    * **GPU**
    * **CPU**

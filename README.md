@@ -20,3 +20,16 @@ The code was initially designed to work with all the models in [**CoreML Model Z
 ![results in XCode](./misc/results.jpg)
 
 # Setting
+
+The performnace is measured in the following setting:
+* One image is used. It is **loaded and preprocessed in advance**.
+* The time is measured `numIter` times **only** for the **prediction** operation
+   ```swift
+   let startTime = CACurrentMediaTime()
+   for _ in 0..<numIter {
+       _ = try! model.prediction(input: input)
+   }
+   let endTime = CACurrentMediaTime()
+   ```
+   Full code is in the [ViewController.swift](./CoreMLPerformance/ViewController.swift)
+* When the real measurement is taken, first **50 iterations** are done as a **warmup**. All the **real** time metrics are measured and averaged for the following **500 iterations**.

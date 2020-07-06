@@ -41,7 +41,7 @@ The performnace is measured in the following setting:
 
 # Customization
 
-To test a model one should 
+To test a model one should:
 1. **Add** it's *\*mlmodel* **file** to the project (simple drag-and-drop works)
 2. **Change code** to include the new model in the list of models to be tested ([line 54 in ViewController.swift](./CoreMLPerformance/ViewController.swift#L54))
 

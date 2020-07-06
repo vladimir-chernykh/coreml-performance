@@ -4,7 +4,7 @@ This repo allows to test the **performance** of Machine Learning models in **Cor
 
 The code was initially designed to work with all the models in [**CoreML Model Zoo**](https://github.com/vladimir-chernykh/coreml-model-zoo). But with a bit of tweaking it could work for any CoreML model.
 
-# Usage
+# Quick Start
 
 1. **Clone** the project
    ```bash

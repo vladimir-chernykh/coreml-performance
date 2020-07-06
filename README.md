@@ -43,6 +43,6 @@ The performnace is measured in the following setting:
 
 To test a model one should 
 1. **Add** it's *\*mlmodel* **file** to the project (simple drag-and-drop works)
-2. **Change code** to include the new model in the list of models to be tested ([line 54 in ViewController.swift](./CoreMLPefrormance/ViewController.swift))
+2. **Change code** to include the new model in the list of models to be tested ([line 54 in ViewController.swift](./CoreMLPerformance/ViewController.swift#L54))
 
 One can also customize the **number of iterations** done to measure the performance. Note that in theory, the more iterations are done, the more precise the results would be. In practice the device might **heat up** very rapidly and the performance might **degrade** significantly. Thus the recommendation is to keep an eye on the device temperature and not overheat it.

@@ -17,4 +17,6 @@ The code was initially designed to work with all the models in [**CoreML Model Z
    * Latency
    * RPS (= 1 / Latency)
 
+![results in XCode](./misc/results.jpg)
+
 # Setting
